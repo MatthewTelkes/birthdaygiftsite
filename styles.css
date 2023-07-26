@@ -1,109 +1,116 @@
 body {
-    text-align: center;
-    color: white;
-    background-color: black;
-    font-family: 'Josefin Sans', sans-serif;
-
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-family: "Josefin Sans", sans-serif;
 }
 #king-pic {
-    width: 300px;
-    border-radius: 50%;
-    border: 5px lightblue solid;
- 
+  width: 300px;
+  border-radius: 50%;
+  border: 5px lightblue solid;
 }
-#gift-card-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 80px;
+#gift-card-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
 }
-.gift-card {
-    width: 300px;
-    height: 300px;
-    border: 5px lightblue solid;
-    border-radius: 15px;
-    background-image: url("images/giftbox.svg");
-    background-size: cover;
+#cardOne,
+#cardTwo,
+#cardThree,
+#cardFour,
+#cardFive,
+#cardSix,
+#cardSeven,
+#cardEight,
+#cardNine,
+#cardTen,
+#cardEleven,
+#cardTwelve {
+  width: 300px;
+  height: 300px;
+  border: 5px lightblue solid;
+  border-radius: 15px;
+  background-size: cover;
 }
 
-#prank-card-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 80px;
+#prank-card-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
 }
 .prank-card {
-    width: 300px;
-    height: 300px;
-    border: 5px lightblue solid;
-    border-radius: 15px;
-    background-image: url("images/prank-bday.png");
-    background-size: cover;
+  width: 300px;
+  height: 300px;
+  border: 5px lightblue solid;
+  border-radius: 15px;
+  background-image: url("images/prank-bday.png");
+  background-size: cover;
 }
 
 .card-title {
-    margin-bottom: 20px;
-    padding: 0px 10px;
+  margin-bottom: 20px;
+  padding: 0px 10px;
 }
 
 #gift-celebration:hover {
-    background-image: url(images/celebration.gif);
+  background-image: url(images/celebration.gif);
 }
 #gift-clap:hover {
-    background-image: url(images/clap.gif);
+  background-image: url(images/clap.gif);
 }
 #gift-look:hover {
-    background-image: url(images/look.gif);
+  background-image: url(images/look.gif);
 }
 #gift-best:hover {
-    background-image: url(images/best.gif);
+  background-image: url(images/best.gif);
 }
 #gift-bhouse:hover {
-    background-image: url(images/bhouse.gif);
+  background-image: url(images/bhouse.gif);
 }
 #gift-ghouse:hover {
-    background-image: url(images/ghouse.gif);
+  background-image: url(images/ghouse.gif);
 }
 #gift-bcar:hover {
-    background-image: url(images/bcar.gif);
+  background-image: url(images/bcar.gif);
 }
 #gift-gcar:hover {
-    background-image: url(images/gcar.gif);
+  background-image: url(images/gcar.gif);
 }
 #gift-gfriends:hover {
-    background-image: url(images/gfriends.gif);
+  background-image: url(images/gfriends.gif);
 }
 #gift-bfriends:hover {
-    background-image: url(images/bfriends.gif);
+  background-image: url(images/bfriends.gif);
 }
 #gift-pope:hover {
-    background-image: url(images/pope.gif);
+  background-image: url(images/pope.gif);
 }
 #pranked:hover {
-    background-image: url(images/pranked.png);
+  background-image: url(images/pranked.png);
 }
 #open-it-text {
-    background-color: rgb(225, 96, 203);
-    border-radius: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 20px;
-
+  background-color: rgb(225, 96, 203);
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
 }
 
 .title-bg {
-    background-color: lightblue;
-    padding: 8px;
-    color: black;
-    border-radius: 10px;
+  background-color: lightblue;
+  padding: 8px;
+  color: black;
+  border-radius: 10px;
 }
 
 #hbd {
-    background-color: rgb(51, 137, 190);
-    display: flex;
-    justify-content: center;
-    text-shadow: rgb(217, 120, 252) 0px 0px 20px;
+  background-color: rgb(51, 137, 190);
+  display: flex;
+  justify-content: center;
+  text-shadow: rgb(217, 120, 252) 0px 0px 20px;
 }
 #footer a {
-    color: white;
+  color: white;
 }
